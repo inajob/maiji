@@ -1,0 +1,372 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background-color:#eee;
+}
+h2.sub{
+    font-size:small;
+}
+p.desc{
+    font-size:small;
+    padding:1em;
+}
+
+h1.round{
+    text-align:center;
+
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    
+    background-color:white;
+    margin:5px;
+}
+h1.headding{
+    text-align:right;
+    border-bottom:2px solid #6a6a6a;
+    margin:5px;
+    font-size:small;
+    margin-bottom:2em;
+}
+div.header h1,h2{
+    text-align:left;
+    font-family:"ＭＳ 明朝",serif;
+}
+div.paper .top-border{
+    border:solid #555;
+    border-width:3px 0px 0px 0px;
+}
+
+
+#header{
+    background-color:#555;
+    border-bottom: 1px solid #333;
+    margin-bottom:1.5em;
+    padding:.7em;
+    color:white;
+    /*z-index:-500;*/
+}
+#descbtn:before {
+    content:">>";
+    cursor:pointer;
+}
+#descbtn{
+    padding-left: 2em;
+    cursor:pointer;
+    display: inline;
+}
+#descbtn:hover {
+    text-decoration: underline;
+}
+dl.corner{
+display: inline-block;
+padding-left: 1.5em;
+margin-left: 1.5em;
+border-left: 1px solid #fff;
+}
+.corner dt,
+.corner dd{
+display: inline-block;
+}
+.corner dt:after{
+content:"：";
+}
+.corner dd{
+padding-left: .7em;
+}
+.corner dd a{
+color: #ddf;
+text-decoration: none;
+}
+.corner dd a:hover {
+text-decoration: underline;
+}
+#socialBtn{
+float: right;
+}
+#hatena,#tweet,#fbNice{
+    float: left;
+    margin-right: 1em;
+}
+
+
+.full{
+    width:100%;
+}
+
+.htable{
+    font-weight:bold;
+}
+
+div.sdesc{
+    width:300px;
+    text-align:left;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#ddd;
+    padding:1em;
+    color:black;
+}
+li{
+    margin-left:3em;
+}
+
+div.footer{
+    text-align:right;
+    font-size:small;
+    padding:2em;
+}
+table.timelink{
+    width:100%;
+}
+table.timelink td{
+    /*border:solid;*/
+    text-align:center;
+    font-size:small;
+}
+div.piece{
+    margin: 10px 70px 30px 100px;
+    padding:1em;
+    /*
+    border:solid 1px;
+
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    */
+    color: #333;
+
+
+    background-color:#EEEEE0;
+
+box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.6);
+-moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.6);
+-webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.6);
+
+}
+div.piece a{
+    color:#003;
+}
+div.piece a:hover{
+    color:#000;
+    background-color:#aaa;
+}
+div.trends{
+    line-height:1.5em;
+    /*
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+
+    background-color:white;
+    */    
+    padding-left:2em;
+    padding-right:2em;
+    margin:2px;
+}
+div.trend{
+    /*background-color:#fff;*/
+    float:left;
+    margin:0.3em;
+    padding:0.2em;
+    border:solid #999;
+    font-size:1.2em;
+    border-width: 2px 2px 2px 10px;
+}
+div.imgs{
+    /*
+    background-color:white;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    */
+    /*
+    margin:5px;
+    padding:1em;
+    */
+}
+
+div.urls{
+    /*background-color:white;*/
+    line-height:1.5em;
+    /*
+
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    margin:5px;
+    padding:1em;
+    */
+}
+
+div.urls div{
+    margin-left:2em;
+    text-indent:-2em;
+    word-break:break-all;
+    padding:0.2em;
+}
+div.urls .iconbox{
+    padding-right:0.5em;
+}
+
+div.ads{
+    
+}
+
+div{
+    font-size:small;
+}
+.buttongroup{
+    position:absolute;
+    width:100%;
+    z-index:1000;
+}
+#leftbutton{
+    margin:15px;
+    z-index:1000;
+}
+#rightbutton{
+    margin:15px;
+    right:0px;
+    z-index:1000;
+}
+.plogo a{
+    text-decoration:none;
+}
+.button{
+    position:absolute;
+    width:80px;
+    height: 1000px;
+    background-color:rgba(0,0,0,0.3);
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#33000000, endcolorstr=#33000000, gradienttype=0);
+
+    text-align:center;
+    color:white;
+    font-size:3em;
+    cursor:pointer;
+}
+div.paper{
+    padding:1em;
+    width:80%;
+    background-color:#eee;
+    height:100px;
+    color: #333;
+
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.6);
+    
+    margin-left:auto;
+    margin-right:auto;
+}
+
+div.adthumb-outer{
+    margin:5px;
+    border:solid 5px #3a3;
+}
+
+div.thumb-outer{
+    margin:5px;
+    border:solid 5px #aaa;
+}
+img.thumb{
+}
+img.adthumb{
+}
+.left{
+    /*width:70%;*/
+    /*background-color:#ddd;*/
+}
+.right{
+    /*background-color:#ddf;*/
+}
+.led{
+    width:70%;
+}
+.rtd{
+    width:30%;
+}
+td{
+    vertical-align:top;
+}
+.preview{
+    height:240px;
+    width:100%;
+    background-color:#dfd;
+    vertical-align:top;
+}
+.preview table{
+    height:100%;
+}
+.preview div{
+    font-size:2em;
+}
+.clbr{
+    clear:both;
+}
+.popup{
+    width:80%;
+    /*height:250px;*/
+    /*border:solid 5px;*/
+box-shadow: 0px 0px 15px 0px rgba(255,255,255,0.6);
+-moz-box-shadow: 0px 0px 15px 0px rgba(255,255,255,0.6);
+-webkit-box-shadow: 0px 0px 15px 0px rgba(255,255,255,0.6);
+
+    background-color:#ddd;
+    position:relative;
+}
+.popup-base{
+    background-color:rgba(0,0,0,0.8);
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#EE000000, endcolorstr=#EE000000, gradienttype=0);
+
+}
+.popup a img{
+    border:solid 3px;
+    margin:3px;
+}
+.border{
+    height:16px;
+    background-color:#55f;
+}
+.trend{
+    font-size:small;
+    padding-right:10px;
+}
+.headding table{
+    width:100%;
+}
+.headding table td{
+    width:33%;
+    vertical-align: bottom;
+    font-size: 1.2em;
+    color: #333;
+}
+.aright{
+    text-align:right;
+}
+.headding table .acenter{
+    text-align:center;
+    font-size: 3.5em;
+    font-family: serif;
+}
+.aleft{
+    text-align:left;
+}
+.piece-footer{
+    border:solid black 3px;
+    border-width: 0px 0px 3px 0px;
+    margin:1em;
+    margin-bottom:1.5em;
+}
+
+.rfloat{
+    float:right;
+}
+.rpad{
+    padding-right:2em;
+}
+.lfloat{
+    float:left;
+}
